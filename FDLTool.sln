@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastDLGenerator", "FastDLGenerator\FastDLGenerator.csproj", "{67230902-4327-463C-B896-7DCAD1049C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDLTool", "FDLTool\FDLTool.csproj", "{67230902-4327-463C-B896-7DCAD1049C09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCB5875E-5D71-4525-81BE-F2038A4027BF}
 	EndGlobalSection
 EndGlobal
