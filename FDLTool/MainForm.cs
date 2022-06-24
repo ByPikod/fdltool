@@ -295,7 +295,7 @@ namespace FDLTool
             DirectoryInfo source = new DirectoryInfo(inputDirectory.SelectedPath);
             DirectoryInfo target = new DirectoryInfo(outputDirectory.SelectedPath);
 
-            if(target.GetFileSystemInfos().Length == 0)
+            if(target.GetFileSystemInfos().Length != 0)
             {
                 var res = MessageBox.Show("Output folder is not empty. Are you sure ?", Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (res == DialogResult.No) return;
